@@ -1131,13 +1131,12 @@ dependencies = [
 
 [[package]]
 name = "socket2"
-version = "0.3.8"
+version = "0.3.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4d11a52082057d87cb5caa31ad812f4504b97ab44732cd8359df2e9ff9f48e7"
+checksum = "122e570113d28d773067fab24266b66753f6ea915758651696b6e35e49f88d6e"
 dependencies = [
- "cfg-if 0.1.5",
+ "cfg-if 1.0.0",
  "libc",
- "redox_syscall",
  "winapi 0.3.5",
 ]
 
